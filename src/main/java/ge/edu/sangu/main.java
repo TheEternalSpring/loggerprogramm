@@ -12,23 +12,14 @@ public class main {
         System.out.println(sarah.toString());
         System.out.println(john.toString());
         logger.info("Doing something");
-        logger.info("Doing something");
-        logger.info("Doing something");
-        logger.info("Doing multiple things");
         logger.info("Doing multiple things");
         System.out.println("Name: " + mike.getName());
-        logger.info("In Process");
         System.out.println("Name: " + sarah.getName());
-        logger.info("In Process");
         System.out.println("Name: " + john.getName());
         logger.info("In Process");
         System.out.println("Job: "+mike.getJob());
-        logger.info("In Process");
         System.out.println("Job: "+sarah.getJob());
-        logger.info("In Process");
         System.out.println("Job: "+john.getJob());
-        logger.debug("Debugging");
-        logger.debug("Debugging");
         logger.debug("Debugging");
         logger.info("Finished!!!");
 
