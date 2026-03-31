@@ -8,7 +8,9 @@ public class main {
         Person mike = new Person("john",24,"accountant");
         System.out.println(mike.toString());
         logger.info("Doing something");
+        System.out.println("Name: " + mike.getName());
         logger.info("In Process");
+        System.out.println("Job: "+mike.getJob());
         logger.debug("Debugging");
         logger.info("Finished");
 
