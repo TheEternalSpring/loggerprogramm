@@ -8,9 +8,9 @@ public class main {
         Person mike = new Person("mike",24,"accountant");
         Person sarah = new Person("sarah",23,"HR");
         Person john = new Person("john",26,"IT");
-        System.out.println(mike.toString());
-        System.out.println(sarah.toString());
-        System.out.println(john.toString());
+        logger.info(mike.toString());
+        logger.info(sarah.toString());
+        logger.info(john.toString());
         logger.info("Doing something");
         logger.info("Doing multiple things");
         System.out.println("Name: " + mike.getName());
