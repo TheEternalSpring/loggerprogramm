@@ -5,6 +5,13 @@ public class main {
 
     private static final MyLogger logger = new MyLogger("launcher 1");
     public static void main(String[] args){
+        /**
+         * logging program
+         * makes info and debuging logs
+         * while printing out
+         * informatin about
+         * specific persons
+         * **/
         Person mike = new Person("mike",24,"accountant");
         Person sarah = new Person("sarah",23,"HR");
         Person john = new Person("john",26,"IT");

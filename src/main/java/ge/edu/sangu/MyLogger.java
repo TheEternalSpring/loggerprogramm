@@ -3,6 +3,16 @@ package ge.edu.sangu;
 import java.time.LocalDateTime;
 
 public class MyLogger {
+    /**
+     * the logger itself
+     * has a name
+     * skeleton loggig program
+     * and two summonable loggers
+     * for info logging
+     * and
+     * debug logging
+     * **/
+
     private String name;
     public MyLogger(String name) {
         this.name = name;
