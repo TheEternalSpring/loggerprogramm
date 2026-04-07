@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"ge.edu.sangu","l":"FileLogger"},{"p":"ge.edu.sangu","l":"main"},{"p":"ge.edu.sangu","l":"MyLogger"},{"p":"ge.edu.sangu","l":"Person"}];updateSearchResults();
