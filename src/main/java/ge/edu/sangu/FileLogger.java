@@ -16,7 +16,7 @@ public class FileLogger extends MyLogger {
         this.fileName = fileName;
     }
 
-    public void filemethod(String level, String message) {
+    public void filemethod(Level level, String message) {
         super.printMethod(level, message);
         String text = "[" + LocalDateTime.now() + "][" + super.getName() + "][" + level + "]: " + message + '\n';
         try {
@@ -28,11 +28,11 @@ public class FileLogger extends MyLogger {
 
     @Override
     public void info(String message) {
-        filemethod("INFO", message);
+        filemethod(Level.INFO, message);
     }
 
     @Override
     public void debug(String message) {
-        filemethod("DEBUG", message);
+        filemethod(Level.DEBUG, message);
     }
 }

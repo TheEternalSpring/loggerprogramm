@@ -18,12 +18,13 @@ public class MyLogger {
         this.name = name;
     }
 
+
     public String getName(){
         return name;
     }
 
-    public void printMethod(String level, String message){
-        if(level==null||level.isBlank()){
+    public void printMethod(Level level, String message){
+        if(level==null){
             throw new IllegalArgumentException("Logging Level cannot have Empty or Null arguments");
         }
         if(message==null||message.isBlank()){
@@ -34,10 +35,10 @@ public class MyLogger {
     }
 
     public void info(String message){
-        printMethod("INFO", message);
+        printMethod(Level.INFO, message);
     }
 
     public void debug(String message){
-        printMethod("DEBUG", message);
+        printMethod(Level.DEBUG, message);
     }
 }
